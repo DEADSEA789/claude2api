@@ -1,0 +1,1 @@
+{"version":"2.0.0","tasks":[{"label":"start-claude2api","type":"shell","command":"cd /workspaces/claude2api && cp -n config.example.yaml config.yaml; docker compose up -d 2>&1 || docker-compose up -d 2>&1","runOptions":{"runOn":"folderOpen"},"problemMatcher":[],"presentation":{"reveal":"always","panel":"dedicated"}}]}
